@@ -33,7 +33,7 @@ func multiplicacao(i ...int) int {
 	return total
 }
 func divisao(i ...int) int {
-	total := 1
+	total := 2
 	for _, v := range i {
 		total = v / total
 	}
